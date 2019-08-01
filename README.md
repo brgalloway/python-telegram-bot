@@ -4,11 +4,10 @@ Telegram bot compatible with Python 3.7. Webhooks with ngrok to Telegram bot mes
 Currently under development - 4/13/2019
 
 ## Instructions For Use:
-Download ngrok into the project root directory: https://ngrok.com/download
+configure nginx proxy for port to expose
 
 Navigate the the root directory in terminal, run:
 
-> ./ngrok http 5000
 
 Add your telegram bot token to the TOKEN variable in config.py
 

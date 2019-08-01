@@ -1,3 +1,5 @@
+#!/usr/bin/python3.7
+
 from flask import Flask, request, jsonify
 
 from telegram_bot import TelegramBot
